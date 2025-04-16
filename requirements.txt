@@ -1,3 +1,6 @@
 numpy
 torch
 z3-solver
+scikit-learn
+requests
+matplotlib
