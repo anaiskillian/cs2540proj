@@ -1,0 +1,14 @@
+{
+    "smt": {
+        "text": "the book was incredibly boring and hard to read.",
+        "original_pred": 0,
+        "perturbed_pred": 0,
+        "success": false
+    },
+    "fgsm": {
+        "text": "the book was extremely boring and hard to read.",
+        "original_pred": 0,
+        "perturbed_pred": 0,
+        "success": false
+    }
+}

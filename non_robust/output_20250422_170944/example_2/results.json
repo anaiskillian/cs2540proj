@@ -1,0 +1,14 @@
+{
+    "smt": {
+        "text": "the restaurant was overpriced and the food was cold.",
+        "original_pred": 0,
+        "perturbed_pred": 0,
+        "success": false
+    },
+    "fgsm": {
+        "text": "the restaurant was overpriced and the food was cold from",
+        "original_pred": 0,
+        "perturbed_pred": 0,
+        "success": false
+    }
+}

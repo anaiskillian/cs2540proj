@@ -1,0 +1,104 @@
+{
+    "example_1": {
+        "text": "The show was entertaining and well-produced.",
+        "true_label": 1,
+        "results": {
+            "smt": {
+                "text": "the show was entertaining and well - produced.",
+                "original_pred": 1,
+                "perturbed_pred": 1,
+                "original_probs": [
+                    0.0331294983625412,
+                    0.9668704867362976
+                ],
+                "perturbed_probs": [
+                    0.03297445550560951,
+                    0.9670255184173584
+                ],
+                "success": false
+            },
+            "fgsm": {
+                "text": "superhero italiana memorable deserves withdrawn i wanna illusions wen dolls",
+                "original_pred": 1,
+                "perturbed_pred": 1,
+                "original_probs": [
+                    0.0331294983625412,
+                    0.9668704867362976
+                ],
+                "perturbed_probs": [
+                    0.15207454562187195,
+                    0.8479254841804504
+                ],
+                "success": false
+            }
+        }
+    },
+    "example_2": {
+        "text": "The food was terrible and the service was slow.",
+        "true_label": 0,
+        "results": {
+            "smt": {
+                "text": "the food was terrible and the service was slow.",
+                "original_pred": 0,
+                "perturbed_pred": 0,
+                "original_probs": [
+                    0.9596526622772217,
+                    0.0403473898768425
+                ],
+                "perturbed_probs": [
+                    0.9596526622772217,
+                    0.0403473898768425
+                ],
+                "success": false
+            },
+            "fgsm": {
+                "text": "##ing implement 5urs cattle mama calf sipping chewed t,",
+                "original_pred": 0,
+                "perturbed_pred": 1,
+                "original_probs": [
+                    0.9596526622772217,
+                    0.0403473898768425
+                ],
+                "perturbed_probs": [
+                    0.3324998617172241,
+                    0.6675001382827759
+                ],
+                "success": true
+            }
+        }
+    },
+    "example_3": {
+        "text": "This movie was great! I loved it.",
+        "true_label": 1,
+        "results": {
+            "smt": {
+                "text": "this movie was great! i loved it.",
+                "original_pred": 1,
+                "perturbed_pred": 1,
+                "original_probs": [
+                    0.03594174236059189,
+                    0.9640582203865051
+                ],
+                "perturbed_probs": [
+                    0.03594174236059189,
+                    0.9640582203865051
+                ],
+                "success": false
+            },
+            "fgsm": {
+                "text": "describing exhibitions danced financially foot meridianlton interpret guides )",
+                "original_pred": 1,
+                "perturbed_pred": 1,
+                "original_probs": [
+                    0.03594174236059189,
+                    0.9640582203865051
+                ],
+                "perturbed_probs": [
+                    0.16419100761413574,
+                    0.8358089923858643
+                ],
+                "success": false
+            }
+        }
+    }
+}

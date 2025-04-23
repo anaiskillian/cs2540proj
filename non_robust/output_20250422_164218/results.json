@@ -1,0 +1,14 @@
+{
+    "fgsm": {
+        "text": "this movie was great! i loved it in",
+        "original_pred": 1,
+        "perturbed_pred": 0,
+        "success": true
+    },
+    "smt": {
+        "text": "this movie was great! i loved it.",
+        "original_pred": 1,
+        "perturbed_pred": 0,
+        "success": true
+    }
+}

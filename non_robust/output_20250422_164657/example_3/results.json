@@ -1,0 +1,14 @@
+{
+    "fgsm": {
+        "text": "the show was entertaining and well - produced.",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "success": false
+    },
+    "smt": {
+        "text": "the show was entertaining and well - produced.",
+        "original_pred": 1,
+        "perturbed_pred": 0,
+        "success": true
+    }
+}

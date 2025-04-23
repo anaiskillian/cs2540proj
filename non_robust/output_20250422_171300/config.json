@@ -1,0 +1,9 @@
+{
+    "num_epochs": 10,
+    "batch_size": 2,
+    "learning_rate": 2e-05,
+    "epsilon": 0.1,
+    "model_name": "bert-base-uncased",
+    "max_length": 128,
+    "num_test_examples": 3
+}

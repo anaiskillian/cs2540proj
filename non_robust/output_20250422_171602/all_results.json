@@ -1,0 +1,104 @@
+{
+    "example_1": {
+        "text": "This movie was great! I loved it.",
+        "true_label": 1,
+        "results": {
+            "smt": {
+                "text": "this movie was great! i loved it.",
+                "original_pred": 1,
+                "perturbed_pred": 1,
+                "original_probs": [
+                    0.19614210724830627,
+                    0.8038579225540161
+                ],
+                "perturbed_probs": [
+                    0.15851885080337524,
+                    0.8414811491966248
+                ],
+                "success": false
+            },
+            "fgsm": {
+                "text": "this movie was great! i loved it ;",
+                "original_pred": 1,
+                "perturbed_pred": 0,
+                "original_probs": [
+                    0.19614210724830627,
+                    0.8038579225540161
+                ],
+                "perturbed_probs": [
+                    0.1588485687971115,
+                    0.8411514163017273
+                ],
+                "success": true
+            }
+        }
+    },
+    "example_2": {
+        "text": "The product broke after just one day of use.",
+        "true_label": 0,
+        "results": {
+            "smt": {
+                "text": "the product broke after just one day of use.",
+                "original_pred": 0,
+                "perturbed_pred": 0,
+                "original_probs": [
+                    0.9370364546775818,
+                    0.06296353787183762
+                ],
+                "perturbed_probs": [
+                    0.9370364546775818,
+                    0.06296353787183762
+                ],
+                "success": false
+            },
+            "fgsm": {
+                "text": "the product broke after just one day of use.",
+                "original_pred": 0,
+                "perturbed_pred": 0,
+                "original_probs": [
+                    0.9370364546775818,
+                    0.06296353787183762
+                ],
+                "perturbed_probs": [
+                    0.9370364546775818,
+                    0.06296353787183762
+                ],
+                "success": false
+            }
+        }
+    },
+    "example_3": {
+        "text": "The book was incredibly boring and hard to read.",
+        "true_label": 0,
+        "results": {
+            "smt": {
+                "text": "the book was incredibly boring and hard to read.",
+                "original_pred": 1,
+                "perturbed_pred": 1,
+                "original_probs": [
+                    0.2558321952819824,
+                    0.7441678047180176
+                ],
+                "perturbed_probs": [
+                    0.2558321952819824,
+                    0.7441678047180176
+                ],
+                "success": false
+            },
+            "fgsm": {
+                "text": "the book was incredibly boring and hard to read.",
+                "original_pred": 1,
+                "perturbed_pred": 0,
+                "original_probs": [
+                    0.2558321952819824,
+                    0.7441678047180176
+                ],
+                "perturbed_probs": [
+                    0.2558321952819824,
+                    0.7441678047180176
+                ],
+                "success": true
+            }
+        }
+    }
+}

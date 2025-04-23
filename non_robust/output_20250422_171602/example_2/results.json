@@ -1,0 +1,30 @@
+{
+    "smt": {
+        "text": "the product broke after just one day of use.",
+        "original_pred": 0,
+        "perturbed_pred": 0,
+        "original_probs": [
+            0.9370364546775818,
+            0.06296353787183762
+        ],
+        "perturbed_probs": [
+            0.9370364546775818,
+            0.06296353787183762
+        ],
+        "success": false
+    },
+    "fgsm": {
+        "text": "the product broke after just one day of use.",
+        "original_pred": 0,
+        "perturbed_pred": 0,
+        "original_probs": [
+            0.9370364546775818,
+            0.06296353787183762
+        ],
+        "perturbed_probs": [
+            0.9370364546775818,
+            0.06296353787183762
+        ],
+        "success": false
+    }
+}

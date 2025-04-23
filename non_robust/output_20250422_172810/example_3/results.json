@@ -1,0 +1,30 @@
+{
+    "smt": {
+        "text": "this movie was great! i loved it.",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "original_probs": [
+            0.03594174236059189,
+            0.9640582203865051
+        ],
+        "perturbed_probs": [
+            0.03594174236059189,
+            0.9640582203865051
+        ],
+        "success": false
+    },
+    "fgsm": {
+        "text": "describing exhibitions danced financially foot meridianlton interpret guides )",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "original_probs": [
+            0.03594174236059189,
+            0.9640582203865051
+        ],
+        "perturbed_probs": [
+            0.16419100761413574,
+            0.8358089923858643
+        ],
+        "success": false
+    }
+}

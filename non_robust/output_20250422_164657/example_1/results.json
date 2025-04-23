@@ -1,0 +1,14 @@
+{
+    "fgsm": {
+        "text": "the game was fun and engaging for hours ;",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "success": false
+    },
+    "smt": {
+        "text": "the game was fun and engaging for hours.",
+        "original_pred": 1,
+        "perturbed_pred": 0,
+        "success": true
+    }
+}

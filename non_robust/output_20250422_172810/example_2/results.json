@@ -1,0 +1,30 @@
+{
+    "smt": {
+        "text": "the food was terrible and the service was slow.",
+        "original_pred": 0,
+        "perturbed_pred": 0,
+        "original_probs": [
+            0.9596526622772217,
+            0.0403473898768425
+        ],
+        "perturbed_probs": [
+            0.9596526622772217,
+            0.0403473898768425
+        ],
+        "success": false
+    },
+    "fgsm": {
+        "text": "##ing implement 5urs cattle mama calf sipping chewed t,",
+        "original_pred": 0,
+        "perturbed_pred": 1,
+        "original_probs": [
+            0.9596526622772217,
+            0.0403473898768425
+        ],
+        "perturbed_probs": [
+            0.3324998617172241,
+            0.6675001382827759
+        ],
+        "success": true
+    }
+}

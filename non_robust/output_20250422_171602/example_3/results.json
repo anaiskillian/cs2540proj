@@ -1,0 +1,30 @@
+{
+    "smt": {
+        "text": "the book was incredibly boring and hard to read.",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "original_probs": [
+            0.2558321952819824,
+            0.7441678047180176
+        ],
+        "perturbed_probs": [
+            0.2558321952819824,
+            0.7441678047180176
+        ],
+        "success": false
+    },
+    "fgsm": {
+        "text": "the book was incredibly boring and hard to read.",
+        "original_pred": 1,
+        "perturbed_pred": 0,
+        "original_probs": [
+            0.2558321952819824,
+            0.7441678047180176
+        ],
+        "perturbed_probs": [
+            0.2558321952819824,
+            0.7441678047180176
+        ],
+        "success": true
+    }
+}

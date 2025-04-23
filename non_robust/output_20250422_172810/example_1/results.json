@@ -1,0 +1,30 @@
+{
+    "smt": {
+        "text": "the show was entertaining and well - produced.",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "original_probs": [
+            0.0331294983625412,
+            0.9668704867362976
+        ],
+        "perturbed_probs": [
+            0.03297445550560951,
+            0.9670255184173584
+        ],
+        "success": false
+    },
+    "fgsm": {
+        "text": "superhero italiana memorable deserves withdrawn i wanna illusions wen dolls",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "original_probs": [
+            0.0331294983625412,
+            0.9668704867362976
+        ],
+        "perturbed_probs": [
+            0.15207454562187195,
+            0.8479254841804504
+        ],
+        "success": false
+    }
+}

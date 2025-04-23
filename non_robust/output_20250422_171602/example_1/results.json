@@ -1,0 +1,30 @@
+{
+    "smt": {
+        "text": "this movie was great! i loved it.",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "original_probs": [
+            0.19614210724830627,
+            0.8038579225540161
+        ],
+        "perturbed_probs": [
+            0.15851885080337524,
+            0.8414811491966248
+        ],
+        "success": false
+    },
+    "fgsm": {
+        "text": "this movie was great! i loved it ;",
+        "original_pred": 1,
+        "perturbed_pred": 0,
+        "original_probs": [
+            0.19614210724830627,
+            0.8038579225540161
+        ],
+        "perturbed_probs": [
+            0.1588485687971115,
+            0.8411514163017273
+        ],
+        "success": true
+    }
+}

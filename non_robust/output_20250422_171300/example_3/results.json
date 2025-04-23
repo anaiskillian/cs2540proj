@@ -1,0 +1,14 @@
+{
+    "smt": {
+        "text": "the hotel room was clean and comfortable.",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "success": false
+    },
+    "fgsm": {
+        "text": "the hotel room is clean and comfortable.",
+        "original_pred": 1,
+        "perturbed_pred": 1,
+        "success": false
+    }
+}
