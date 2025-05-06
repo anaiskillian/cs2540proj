@@ -1,0 +1,68 @@
+{
+    "per_example_analysis": {
+        "example_1": {
+            "overlap_coefficient": 0.0,
+            "metrics": {
+                "smt_changes": [],
+                "fgsm_changes": [],
+                "common_changes": [],
+                "smt_only_changes": [],
+                "fgsm_only_changes": [],
+                "total_smt_changes": 0,
+                "total_fgsm_changes": 0,
+                "total_common_changes": 0
+            },
+            "smt_success": true,
+            "fgsm_success": false
+        },
+        "example_2": {
+            "overlap_coefficient": 0.0,
+            "metrics": {
+                "smt_changes": [],
+                "fgsm_changes": [
+                    "of"
+                ],
+                "common_changes": [],
+                "smt_only_changes": [],
+                "fgsm_only_changes": [
+                    "of"
+                ],
+                "total_smt_changes": 0,
+                "total_fgsm_changes": 1,
+                "total_common_changes": 0
+            },
+            "smt_success": true,
+            "fgsm_success": false
+        },
+        "example_3": {
+            "overlap_coefficient": 1.0,
+            "metrics": {
+                "smt_changes": [
+                    "-",
+                    "produced",
+                    "well"
+                ],
+                "fgsm_changes": [
+                    "-",
+                    "produced",
+                    "well"
+                ],
+                "common_changes": [
+                    "-",
+                    "produced",
+                    "well"
+                ],
+                "smt_only_changes": [],
+                "fgsm_only_changes": [],
+                "total_smt_changes": 3,
+                "total_fgsm_changes": 3,
+                "total_common_changes": 3
+            },
+            "smt_success": true,
+            "fgsm_success": false
+        }
+    },
+    "average_overlap": 0.3333333333333333,
+    "total_examples": 3,
+    "successful_examples": 3
+}

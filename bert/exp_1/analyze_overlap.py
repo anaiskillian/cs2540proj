@@ -88,7 +88,7 @@ def analyze_all_examples(results: Dict) -> Dict:
 
 def main():
     # Find all output directories
-    base_dir = 'non_robust'
+    base_dir = '.'  # Changed from 'non_robust' to current directory
     output_dirs = [d for d in os.listdir(base_dir) if d.startswith('output_')]
     
     for output_dir in output_dirs:

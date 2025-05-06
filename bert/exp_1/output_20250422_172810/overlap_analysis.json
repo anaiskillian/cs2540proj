@@ -1,0 +1,120 @@
+{
+    "per_example_analysis": {
+        "example_1": {
+            "overlap_coefficient": 0.0,
+            "metrics": {
+                "smt_changes": [
+                    "-",
+                    "produced",
+                    "well"
+                ],
+                "fgsm_changes": [
+                    "withdrawn",
+                    "illusions",
+                    "italiana",
+                    "wen",
+                    "dolls",
+                    "memorable",
+                    "superhero",
+                    "deserves",
+                    "i",
+                    "wanna"
+                ],
+                "common_changes": [],
+                "smt_only_changes": [
+                    "-",
+                    "produced",
+                    "well"
+                ],
+                "fgsm_only_changes": [
+                    "withdrawn",
+                    "italiana",
+                    "illusions",
+                    "wen",
+                    "dolls",
+                    "memorable",
+                    "superhero",
+                    "deserves",
+                    "i",
+                    "wanna"
+                ],
+                "total_smt_changes": 3,
+                "total_fgsm_changes": 10,
+                "total_common_changes": 0
+            },
+            "smt_success": false,
+            "fgsm_success": false
+        },
+        "example_2": {
+            "overlap_coefficient": 0.0,
+            "metrics": {
+                "smt_changes": [],
+                "fgsm_changes": [
+                    "calf",
+                    "cattle",
+                    "t",
+                    "5urs",
+                    "sipping",
+                    "implement",
+                    "mama",
+                    "##ing",
+                    "chewed"
+                ],
+                "common_changes": [],
+                "smt_only_changes": [],
+                "fgsm_only_changes": [
+                    "calf",
+                    "cattle",
+                    "t",
+                    "5urs",
+                    "sipping",
+                    "implement",
+                    "mama",
+                    "##ing",
+                    "chewed"
+                ],
+                "total_smt_changes": 0,
+                "total_fgsm_changes": 9,
+                "total_common_changes": 0
+            },
+            "smt_success": false,
+            "fgsm_success": true
+        },
+        "example_3": {
+            "overlap_coefficient": 0.0,
+            "metrics": {
+                "smt_changes": [],
+                "fgsm_changes": [
+                    "exhibitions",
+                    "foot",
+                    "describing",
+                    "interpret",
+                    "meridianlton",
+                    "guides",
+                    "financially",
+                    "danced"
+                ],
+                "common_changes": [],
+                "smt_only_changes": [],
+                "fgsm_only_changes": [
+                    "exhibitions",
+                    "foot",
+                    "describing",
+                    "interpret",
+                    "meridianlton",
+                    "guides",
+                    "financially",
+                    "danced"
+                ],
+                "total_smt_changes": 0,
+                "total_fgsm_changes": 8,
+                "total_common_changes": 0
+            },
+            "smt_success": false,
+            "fgsm_success": false
+        }
+    },
+    "average_overlap": 0.0,
+    "total_examples": 3,
+    "successful_examples": 1
+}
