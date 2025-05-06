@@ -6,7 +6,7 @@ This project explores the robustness of BERT-based sentiment classification mode
 
 ```
 cs2540proj/
-├── bert/                    # BERT-based sentiment analysis experim
+├── bert/                    # BERT-based sentiment analysis experiments
 ├── cm_2/                    # Circles and Moons classification
 ├── iris_flower/            # Iris flower classification
 ├── circles_moons_classification/
@@ -16,7 +16,35 @@ cs2540proj/
 └── requirements.txt        # Project dependencies
 ```
 
-### Key Components
+## Setup and Installation
+
+1. Create and activate a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Unix/macOS
+# OR
+.\venv\Scripts\activate  # On Windows
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Running Experiments
+
+1. Run BERT experiments:
+```bash
+cd bert
+python same_perturbed.py
+```
+
+2. Analyze results:
+```bash
+python analyze_overlap.py
+```
+
+## Key Components
 
 1. **SMT Verification**
    - Uses Z3 solver to find minimal perturbations
@@ -31,24 +59,6 @@ cs2540proj/
 3. **Analysis Tools**
    - Visualizes token-level changes
    - Compares effectiveness of both methods
-
-## Running Experiments
-
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-2. Run BERT experiments:
-```bash
-cd bert
-python same_perturbed.py
-```
-
-3. Analyze results:
-```bash
-python analyze_overlap.py
-```
 
 ## Results
 
